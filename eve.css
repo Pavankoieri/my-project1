@@ -1,0 +1,120 @@
+
+{
+margin:0;
+padding:0;
+}
+body
+{
+background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(images/t1.jpg);
+background-position:center;
+background-size:cover;
+}
+.logo
+{
+width:100px;
+margin-top:18px;
+}
+.header
+{
+width:70%;
+height:730px;
+border: 2px solid black;
+margin-left:15%;
+margin-top:1%;
+box-shadow:0 5px 38px darked;
+background:linear-gradient(0deg, rgba(0,0,0,0.9) 50%, transparent);
+border-radius:20px;
+}
+.header-btn
+{
+text-decoration: none !important;
+border-radius: 30px;
+padding: 7px 20px;
+float:right;
+margin-top: 15px;
+margin-right:10px;
+margin-left:10px;
+color: #fff !important;
+background: #107afd;
+font-weight:600;
+}
+.image
+{
+margin-left:2%;
+margin-right:2%;
+}
+.image h2
+{
+position: absolute;
+margin-top:20px;
+color:burlywood;
+margin-bottom:0;
+}
+.image p
+{
+color: silver;
+position: absolute;
+display:inline-block;
+margin-right:15%;
+margin-left:5%;
+margin-top:10%;
+border-bottom:2px solid silver;
+box-shadow:0 5px 8px rosybrown;
+}
+.image img
+{
+width:21%;
+margin-top:10%;
+}
+.photo img
+{
+width:10%;
+position:relative;
+left:20%;
+margin-left:6%;
+margin-top:-12%;
+transition:.5s;
+cursor:pointer;
+}
+.photo img:hover
+{
+transition:scale(1.1);
+box-shadow:0 5px 8px darkgreen;
+}
+.btn button
+{
+border:none;
+outline:none;
+width:13%;
+height:40px;
+margin-left:2%;
+border-radius:5px;
+background-color:darkkhaki;
+margin-top:3%;
+cursor:pointer;
+transition:.5s;
+border:2px solid silver;
+}
+.btn button:hover
+{
+background-color:mistyrose;
+box-shadow:0 5px 8px white;
+}
+.more h2
+{
+color:aliceblue;
+margin-left:2%;
+margin-top:6%;
+}
+.more img
+{
+width:12%;
+margin-top:6%;
+transition:.5s;
+margin-left:4%;
+}
+.more img:hover
+{
+transform: scale(1.05);
+box-shadow: 0 5px 8px rosybrown;
+}

@@ -1,0 +1,127 @@
+<html>
+<title> Booking Management System</title>
+<link rel="stylesheet"href="project.css">
+<center><img src="bms2.png" width="1000" height=250"></center><h1> <center>Book My Show</center></h1><hr>
+<style>
+button {
+  background-color:green;
+  border: none;
+  color: white;
+  padding: 12px 18px;
+  text-align: center;
+  display: inline-block;
+  font-size: 18px;
+}
+</style>
+<pre>
+<center>
+<a href="file:///C:/Users/pavan%20kumar%20koieri/Desktop/bookmyshow/index.html"><button>Home</button></a>     <a href="file:///C:/Users/pavan%20kumar%20koieri/Desktop/bookmyshow/extra.html"><button>Movies</button></a>      <a href="file:///C:/Users/pavan%20kumar%20koieri/Desktop/bookmyshow/event.html"><button>Events</button></a>       <a href="file:///C:/Users/pavan%20kumar%20koieri/Desktop/bookmyshow/contactus.html"><button>Contact Us</button> </a>   <a href="file:///C:/Users/pavan%20kumar%20koieri/Desktop/bookmyshow/login.html"><button>Log Out</button></a> 
+
+</head>
+</pre>
+<body>
+<center>
+<div class="slideshow-container">
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="sl1.jpg" style="width:1000">
+  <div class="text"></div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="sl3.jpg" style="width:1000">
+  <div class="text"></div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="sl4.jpg" style="width:1000">
+  <div class="text"></div>
+</div>
+</div>
+<br>
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); 
+}
+
+</script>
+
+</body>
+</html> 
+
+</body>
+<style>
+.grid-container {
+display:inline-grid;
+grid-template-columns: auto auto auto  ;
+grid-template-rows:400px 400px 400px;
+grid-gap:10px;
+background-color:black;
+padding:10px;
+}
+.grid-item{
+background-color:orange;
+border:5px solid red;
+padding:0px;
+font-size:30px;
+text-align:center;
+}
+</style>
+</head>
+<h1>
+<center>Movies</center>
+</h1>
+<center>
+<div class="grid-container">
+<div class="grid-item"><a href=file:///D:/HTML/project/theatres.html><img src="endgame.jfif" width="300" height="390"></a></div>
+<div class="grid-item"><a href=file:///D:/HTML/project/theatres.html><img src="women.jfif" width="300" height="390"></a></div>
+<div class="grid-item"><a href=file:///D:/HTML/project/theatres.html><img src="jersey.jfif" width="300" height="390"></a></div>
+<div class="grid-item"><a href=file:///D:/HTML/project/theatres.html><img src="ngk.jpg" width="300" height="390"></a></div>
+<div class="grid-item"><a href=file:///D:/HTML/project/theatres.html><img src="maharshi.jpg" width="300" height="390"></a></div>
+<div class="grid-item"><a href=file:///D:/HTML/project/theatres.html><img src="majili.jfif" width="300" height="390"></a></div>
+<div class="grid-item"><a href=file:///D:/HTML/project/theatres.html><img src="kalank.jfif" width="300" height="390"></a></div>
+<div class="grid-item"><a href=file:///D:/HTML/project/theatres.html><img src="kesari.jfif" width="300" height="390"></a></div>
+<div class="grid-item"><a href=file:///D:/HTML/project/movie.html><img src="s2.png" width="300" height="390"></a></div>
+</div>
+</center>
+</head>
+<h1>
+<center>Events</center>
+</h1>
+<center>
+<div class="grid-container">
+<div class="grid-item"><a href=file:///D:/HTML/project/e1.html><img src="event1.jfif" width="300" height="390"></a></div>
+<div class="grid-item"><a href=file:///D:/HTML/project/e1.html><img src="event.jpg" width="300" height="390"></a></div>
+<div class="grid-item"><a href=file:///D:/HTML/project/e1.html><img src="e3.jpg" width="300" height="390"></a></div>
+<div class="grid-item"><a href=file:///D:/HTML/project/e1.html><img src="e2.jpg" width="300" height="390"></a></div>
+<div class="grid-item"><a href=file:///D:/HTML/project/e1.html><img src="e4.jpg" width="300" height="390"></a></div>
+<div class="grid-item"><a href=file:///D:/HTML/project/e1.html><img src="e5.jpg" width="300" height="390"></a></div>
+<div class="grid-item"><a href=file:///D:/HTML/project/e1.html><img src="e6.jpg" width="300" height="390"></a></div>
+<div class="grid-item"><a href=file:///D:/HTML/project/e1.html><img src="e7.jpg" width="300" height="390"></a></div>
+<div class="grid-item"><a href=file:///D:/HTML/project/event.html><img src="s2.png" width="300" height="390"></a></div>
+</div>
+</center>
+</body>
+</body>
+</html>

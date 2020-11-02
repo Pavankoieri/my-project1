@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="pay.css">
+
+</head>
+<body>
+<div class="wrapper">
+  <div class="container">
+    <div class="title">PAYMENT FORM</div>
+    
+    <div class="input-form">
+      <div class="section-1">
+        <div class="items">
+          <label class="label">card number</label>
+          <input type="text" class="input" maxlength="16" data-mask="0000 0000 0000 0000"placeholder="1234 1234 1234 1234">
+        </div>
+      </div>
+      <div class="section-2">
+        <div class="items">
+          <label class="label">card holder</label>
+          <input type="text" class="input" placeholder="Name on card">
+        </div>
+      </div>
+      <div class="section-3">
+        <div class="items">
+          <label class="label">Expire date</label>
+          <input type="text" class="input" data-mask="00 / 00" placeholder="MM / YY">
+        </div> 
+        <div class="items">
+          <div class="cvc">
+            <label class="label">cvc code</label>
+            <div class="tooltip">?
+              <div class="cvc-img"><img src="https://i.imgur.com/r8oXtry.png" alt=""></div>
+            </div>
+          </div>
+          <input type="text" class="input" data-mask="0000" placeholder="0000">
+        </div>
+      </div>
+    </div>
+    
+    <div class="btn">proceed</div>
+    
+  </div>
+</div>
+</body>
+</html>
+
+
+
+
+
